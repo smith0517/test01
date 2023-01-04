@@ -1,0 +1,89 @@
+// ---------------------------------------------------------------
+//  Breakpoint
+// ---------------------------------------------------------------
+
+// SP
+$breakpoint-sp: 767px;
+// Tablet
+$breakpoint-tb: 768px;
+// PC
+$breakpoint-pc: 1025px;
+
+
+// ---------------------------------------------------------------
+//  contents width
+// ---------------------------------------------------------------
+$contents-width: 1200;
+$contents-width-unit: $contents-width + px;
+
+
+// ---------------------------------------------------------------
+//  contents garter
+// ---------------------------------------------------------------
+$contents-garter: 4;
+$contents-garter-tb: 3.7037037037;
+$contents-garter-unit: $contents-garter * 1%;
+$contents-garter-tb-unit: $contents-garter-tb * 1%;
+
+
+// ---------------------------------------------------------------
+//  contents max width
+// ---------------------------------------------------------------
+$contents-max-width: calc($contents-width + ($contents-width * $contents-garter / 100) * 2);
+$contents-max-width-unit: $contents-max-width + px;
+
+
+// ---------------------------------------------------------------
+//  Font
+// ---------------------------------------------------------------
+$font-family-base: "Myriad Pro", "Segoe UI", Helvetica, Arial, Verdana, Roboto, "Droid Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", HiraKakuProN-W3, "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "Noto Sans CJK JP", Meiryo, Osaka, "MS PGothic", sans-serif;
+$font-family-base-ja: ヒラギノ角ゴシック, "Hiragino Sans", "Hiragino Kaku Gothic ProN", HiraKakuProN-W3, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "ヒラギノ角ゴ Pro W3", "Noto Sans", "Noto Sans CJK JP", メイリオ, Meiryo, Roboto, "Droid Sans", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$font-family-base-zh: "PingFang SC", "Noto Sans CJK SC", "Microsoft Yahei", SimSun, Song, "Lantinghei SC", "Apple LiSung", PMingLiU, "Myriad Pro", "Segoe UI", Helvetica, Arial, Verdana, Roboto, "Droid Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", HiraKakuProN-W3, "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "Noto Sans CJK JP", Meiryo, Osaka, "MS PGothic", sans-serif;
+$font-family-base-ko: "Apple SD Gothic Neo", "Noto Sans CJK KR", "Malgun Gothic", dotum, AppleGothic, "Myriad Pro", "Segoe UI", Helvetica, Arial, Verdana, Roboto, "Droid Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", HiraKakuProN-W3, "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "Noto Sans CJK JP", Meiryo, Osaka, "MS PGothic", sans-serif;
+$font-family-base-th: Sukhumvit, "Noto Sans Thai", Leelawadee, thonburi, Tahoma, "Myriad Pro", "Segoe UI", Helvetica, Arial, Verdana, Roboto, "Droid Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", HiraKakuProN-W3, "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "Noto Sans CJK JP", Meiryo, Osaka, "MS PGothic", sans-serif;
+$font-family-base-etc: "Myriad Pro", "Segoe UI", Helvetica, Arial, Verdana, Roboto, "Droid Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", HiraKakuProN-W3, "Hiragino Kaku Gothic Pro", HiraKakuPro-W3, "Noto Sans CJK JP", Meiryo, Osaka, "MS PGothic", sans-serif;
+
+// ---------------------------------------------------------------
+//  Color
+// ---------------------------------------------------------------
+// text
+$color_text_base: #222;
+$color_text_white: #FFF;
+$color_text_black: #000;
+$color_text_primary_blue: #00146E;
+$color_text_secondary_red: #D91829;
+
+// link
+$color_linktext_base: #222;
+
+// btn disabled
+$color_text_btn_disabled: #6E6E6E;
+$color_bg_btn_disabled: #C7C7C7;
+
+// input disabled
+$color_text_input_disabled: #6E6E6E;
+$color_bg_input_disabled: #E5E5E5;
+
+// placeholder
+$color_text_placeholder: #6E6E6E;
+
+// other
+$color_white: #FFF;
+$color_black: #000;
+$color_primary_blue: #00146E;
+$color_primary_lightblue: #00AFF0;
+$color_secondary_blue: #CCD4EA;
+$color_secondary_red: #D91829;
+$color_secondary_pink: #F8E0E5;
+$color_gray_90: #222;
+$color_gray_70: #525252;
+$color_gray_60: #6E6E6E;
+$color_gray_40: #949499;
+$color_gray_30: #B2B2B2;
+$color_gray_20: #C7C7C7;
+$color_gray_10: #E5E5E5;
+$color_gray_7: #EDEDED;
+$color_gray_5: #F1F1F1;
+
+
+$color_blue01: #E3E8F4;

@@ -1,0 +1,7 @@
+@use "../../core" as *;
+
+/* text color - utility
+--------------------------------------------------------- */
+.u-text-color-red {
+  color: $color_text_secondary_red;
+}

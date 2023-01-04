@@ -1,0 +1,20 @@
+@use "../../core" as *;
+
+.c-add-to-favorites {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  &::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon_addtofavorite_primary_16.svg) no-repeat center center;
+    background-size: cover;
+    margin-right: 0.2em;
+  }
+  &__text {
+    display: block;
+    color: $color_text_primary_blue;
+  }
+}

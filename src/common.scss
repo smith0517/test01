@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+// ---------------------------------------------------------------
+// FLOCSSベース 独自拡張
+// https://github.com/hiloki/flocss
+// core mixin/function/variable
+// fundation normalize/reset/font/iconfont/
+// layout header/footer/wrapper/main
+// object component/project/utility
+// page
+// vendor
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// core - variable
+// ---------------------------------------------------------------
+@use "foundation";
+@use "layout";
+@use "object/component";
+@use "object/project";
+@use "object/utility";

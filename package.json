@@ -1,0 +1,25 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/scss/:css/ --watch",
+    "lint:css": "stylelint --fix **/*.{css,scss,sass}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://inagakitakaya@bitbucket.org/inagakitakaya/project-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/inagakitakaya/project-1/issues"
+  },
+  "homepage": "https://bitbucket.org/inagakitakaya/project-1#readme",
+  "dependencies": {
+    "sass": "^1.57.0"
+  }
+}

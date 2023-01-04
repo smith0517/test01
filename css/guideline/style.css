@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* =====================================================
+
+* css description: パーツリストのスタイリング用CSS
+* note: システム側取り込み不要
+
+===================================================== */
+
+.l-core-contents__main {
+  padding-bottom: 100px;
+}
+.sample-page-title {
+  margin:32px 0;
+}
+.sample-page-title-s {
+  margin:60px 0 16px;
+}
+
+.sample-codeBox {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border:1px solid #ccc;
+  background-color: #fff;
+}
+.sample-codeBox__title {
+  padding: 20px 20px;
+  font-size: 1.6rem;
+  line-height: 20px;
+  font-weight: bold;
+  border-bottom:1px solid #ccc;
+}
+.sample-codeBox__title .state {
+  margin-left: 1em;
+  padding: 4px 8px;
+  display: inline-block;
+  border: 1px solid #00146E;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #00146E;
+
+}
+.sample-codeBox__object {
+  padding: 0 20px;
+
+}
+.sample-codeBox__object .view {
+  padding: 48px 0 ;
+  position: relative;
+}
+.sample-codeBox__object .view.view--gray {
+  background:#efefef;
+}
+.sample-codeBox__object .view .view__headding {
+  margin: 30px 0 15px 0;
+  display: block;
+  font-size: 1.3rem;
+  color: #666;
+}
+.sample-codeBox__object .view .block{
+  margin-bottom: 20px;
+}
+.sample-codeBox__object .view .view__headding:first-child {
+  margin: 0 0 15px 0;
+}
+.sample-codeBox__object .source {
+  margin-bottom: 20px;
+}
+.sample-codeBox__object .source pre {
+  padding: 40px 15px 20px;
+  border-radius: 4px;
+  background: #25292f;
+  color: #fff;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+.sample-codeBox__object .source pre code {
+  text-align: left;
+}
+.sample-codeBox__object .source pre:before {
+  content: 'code';
+  display: block;
+  width: 60px;
+  height: 20px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  font-weight: bold;
+  color: #ccc;
+  background-color: #555;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: absolute;
+  top:0;
+  left:0;
+  text-align: center;
+}
+.sample-codeBox__object .discription {
+  margin-bottom: 20px;
+}
+.sample-codeBox__object .discription .text-area,
+.sample-codeBox__object .discription pre,
+.sample-noteArea pre,
+.sample-noteArea .text-area {
+  padding: 40px 15px 20px;
+  border-radius: 4px;
+  background: #e7edf3;
+  border: solid 1px #d6dde4;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.sample-codeBox__object .discription .text-area:before,
+.sample-codeBox__object .discription pre:before,
+.sample-noteArea pre:before,
+.sample-noteArea .text-area:before {
+  content: 'note';
+  display: block;
+  width: 60px;
+  height: 20px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  font-weight: bold;
+  color: #153d65;
+  background-color: #d6dde4;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: absolute;
+  top:0;
+  left:0;
+  text-align: center;
+}
+.sample-codeBox__object .discription .text-area .dot-list,
+.sample-noteArea .discription .dot-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.sample-codeBox__object .discription .text-area a,
+.sample-noteArea .text-area a {
+  color: rgb(12, 64, 168);
+  text-decoration: underline;
+}
+.sample-noteArea {
+  margin-bottom: 40px;
+}
+
+/*パーツリスト一覧テーブル*/
+.parts-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.parts-list-table th {
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  border: 1px solid #ccc;
+  background-color: #ddd;
+}
+.parts-list-table td {
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.parts-list-table td a {
+  color: #0064de;
+  text-decoration: underline;
+}
+.sample-codeBox__object .parts-list-table th {
+  text-align: left;
+}
+
+
+/* サンプルを横並び表示 */
+@media only screen and (min-width: 768px) {
+  .sample-flex-wrap {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.sample-flex-wrap-inner {
+  margin-bottom: 30px;
+  padding: 0 40px;
+}
+.sample-flex-wrap-inner--gray {
+  background: #ccc;
+}
+.sample-flex-wrap-inner.t-a-c {
+  text-align: center;
+}

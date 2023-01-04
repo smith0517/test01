@@ -1,0 +1,13 @@
+@use "../../core" as *;
+
+.c-text-link {
+  color: $color_linktext_base;
+  text-decoration: none;
+}
+@include is-pc {
+  .c-text-link {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
